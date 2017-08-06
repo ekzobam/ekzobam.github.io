@@ -1,37 +1,37 @@
-## Welcome to GitHub Pages
+## Добро пожаловать на страницы GitHub
 
-You can use the [editor on GitHub](https://github.com/ekzobam/ekzobam.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Вы можете использовать [editor on GitHub](https://github.com/ekzobam/ekzobam.github.io/edit/master/index.md) чтобы поддерживать и просматривать содержимое вашего сайта в файлах Markdown.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Всякий раз, когда вы фиксируете этот репозиторий, GitHub Pages запустит [Jekyll](https://jekyllrb.com/) чтобы перестроить страницы вашего сайта, из содержимого ваших файлов Markdown.
 
 ### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+легкий и простой в использовании синтаксис для стилизации вашего письма. Он включает в себя
 
 ```markdown
-Syntax highlighted code block
+Синтаксис выделенного кодового блока
 
-# Header 1
-## Header 2
-### Header 3
+# Заголовок 1
+## Заголовок 2
+### Заголовок 3
 
-- Bulleted
-- List
+- Маркированный
+- Список
 
-1. Numbered
-2. List
+1. Нумерованный
+2. Список
 
-**Bold** and _Italic_ and `Code` text
+**Bold** и _Italic_ и `Code` текст
 
-[Link](url) and ![Image](src)
+[Ссылка](url) И ![Изображение](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Подробнее смотри [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+### Оформление Jekyll
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ekzobam/ekzobam.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Ваш сайт Pages будет использовать макет и стили из темы Jekyll, выбранной вами в [настройках репозитория](https://github.com/ekzobam/ekzobam.github.io/settings). Имя этой темы сохраняется в файле конфигурации Jekyll `_config.yml`.
 
-### Support or Contact
+### Поддержка или контакт
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Проблемы с страницами? Ознакомьтесь с нашей [документацией] (https://help.github.com/categories/github-pages-basics/) или [службой поддержки] (https://github.com/contact), и мы поможем вам.
