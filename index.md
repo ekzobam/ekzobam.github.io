@@ -31,7 +31,3 @@
 ### Оформление Jekyll
 
 Ваш сайт Pages будет использовать макет и стили из темы Jekyll, выбранной вами в [настройках репозитория](https://github.com/ekzobam/ekzobam.github.io/settings). Имя этой темы сохраняется в файле конфигурации Jekyll `_config.yml`.
-
-### Поддержка или контакт
-
-Проблемы с страницами? Ознакомьтесь с нашей [документацией] (https://help.github.com/categories/github-pages-basics/) или [службой поддержки] (https://github.com/contact), и мы поможем вам.
