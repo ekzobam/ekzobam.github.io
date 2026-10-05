@@ -5,3 +5,4 @@
 **Быстрая навигация:**  
 * [AmbientLight](/ambientlight.md)  
 * [Soundaktor (SAK)](/soundaktor.md)  
+* [Перенос динамика ГЛОНАСС](/dinamik_glonass.md)  
