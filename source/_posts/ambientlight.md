@@ -1,12 +1,11 @@
-
 ---
-title: Установка атмосферной подсветки на Volkswagen Taos.
+title: Установка атмосферной (эстетической) подсветки.
 date: 2026-01-02 18:30:00
 tags:
   - Coding
   - Retrofit
-  - ambient light
-  - interior
+  - Ambient light
+  - Interior
 ---
 > Активно журналы давно не веду, поэтому фото минимум.  
 
