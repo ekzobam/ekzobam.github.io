@@ -1,0 +1,78 @@
+# ---------- Сайт ----------
+title: Volkswagen Taos
+subtitle: ''
+description: Журнал доработок Volkswagen Taos
+keywords:
+author: ekzobam
+language: ru
+timezone: Europe/Yekaterinburg
+
+# ---------- Адрес ----------
+# ВАЖНО: замените ВАШ-ЛОГИН на логин GitHub.
+# Если репозиторий называется НЕ "ВАШ-ЛОГИН.github.io",
+# укажите url: https://ВАШ-ЛОГИН.github.io/имя-репозитория
+# и root: /имя-репозитория/
+url: https://ekzobam.github.io
+root: /
+# Для префикса языка, как на mqb-blog.com, замените на:
+# permalink: en/:year/:month/:day/:title/
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+pretty_urls:
+  trailing_index: true
+  trailing_html: true
+
+# ---------- Каталоги ----------
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# ---------- Посты ----------
+new_post_name: :title.md
+default_layout: post
+titlecase: false
+external_link:
+  enable: true
+  field: site
+  exclude: ''
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+syntax_highlighter: highlight.js
+highlight:
+  line_number: true
+  auto_detect: false
+  tab_replace: ''
+  wrap: true
+  hljs: false
+
+# ---------- Главная страница ----------
+index_generator:
+  path: ''
+  per_page: 10
+  order_by: -date
+
+# ---------- Категории и теги ----------
+default_category: uncategorized
+category_map:
+tag_map:
+
+# ---------- Дата ----------
+date_format: DD.MM.YYYY
+time_format: HH:mm:ss
+updated_option: mtime
+
+# ---------- Страницы ----------
+per_page: 10
+pagination_dir: page
+
+# ---------- Тема ----------
+# Чтобы сменить тему: положите её в папку themes/ и укажите её имя здесь.
+theme: landscape
