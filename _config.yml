@@ -13,7 +13,7 @@ timezone: Europe/Yekaterinburg
 # укажите url: https://ВАШ-ЛОГИН.github.io/имя-репозитория
 # и root: /имя-репозитория/
 url: https://ekzobam.github.io
-root: /
+root: /ekzobam.github.io/
 # Для префикса языка, как на mqb-blog.com, замените на:
 # permalink: en/:year/:month/:day/:title/
 permalink: :year/:month/:day/:title/
