@@ -57,8 +57,8 @@
           '<input class="article-share-input" value="' + url + '">',
           '<div class="article-share-links">',
             '<a href="https://twitter.com/intent/tweet?text=' + encodeURIComponent(title) + '&url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"><span class="fa fa-twitter"></span></a>',
-            '<a href="https://t.me/share/url?url=' + encodeURIComponent(title) + '&text=' + encodeURIComponent(post.title) + '" class="article-share-telegram" target="_blank" title="Telegram"><span class="fa fa-telegram"></span>Telegram</a>',
-            '<a href="https://vk.com/share.php?url=' + encodeURIComponent(title) + '" class="article-share-vk" target="_blank" title="VK"><span class="fa fa-vk"></span>VK</a>',
+            '<a href="https://t.me/share/url?url=' + encodedUrl + '&text=' + encodeURIComponent(title) + '" class="article-share-telegram" target="_blank" title="Telegram"><span class="fa fa-telegram"></span>Telegram</a>',
+            '<a href="https://vk.com/share.php?url=' + encodedUrl + '" class="article-share-vk" target="_blank" title="VK"><span class="fa fa-vk"></span>VK</a>',
           '</div>',
         '</div>'
       ].join('');
