@@ -58,6 +58,7 @@
           '<div class="article-share-links">',
             '<a href="https://t.me/share/url?url=' + encodedUrl + '&text=' + encodeURIComponent(title) + '" class="article-share-telegram" target="_blank" title="Telegram"><span class="fa fa-telegram"></span></a>',
             '<a href="https://vk.com/share.php?url=' + encodedUrl + '" class="article-share-vk" target="_blank" title="VK"><span class="fa fa-vk"></span></a>',
+            '<a href="#" class="article-share-copy" title="Скопировать ссылку"></a>',
           '</div>',
         '</div>'
       ].join('');
@@ -133,4 +134,24 @@
 
     $container.removeClass('mobile-nav-on');
   });
+
+  $('body').on('click', '.article-share-copy', function (e) {
+  e.preventDefault();
+  e.stopPropagation();
+  var $btn = $(this);
+  var $input = $btn.closest('.article-share-box').find('input');
+
+  function done() {
+    $btn.addClass('copied');
+    setTimeout(function () { $btn.removeClass('copied'); }, 1500);
+  }
+
+  if (navigator.clipboard && window.isSecureContext) {
+    navigator.clipboard.writeText($input.val()).then(done);
+  } else {
+    $input.select();
+    document.execCommand('copy');
+    done();
+  }
+});
 })(jQuery);
