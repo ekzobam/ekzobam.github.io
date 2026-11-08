@@ -58,7 +58,7 @@
           '<div class="article-share-links">',
             '<a href="https://t.me/share/url?url=' + encodedUrl + '&text=' + encodeURIComponent(title) + '" class="article-share-telegram" target="_blank" title="Telegram"><span class="fa fa-telegram"></span></a>',
             '<a href="https://vk.com/share.php?url=' + encodedUrl + '" class="article-share-vk" target="_blank" title="VK"><span class="fa fa-vk"></span></a>',
-            '<a href="#" class="article-share-copy" title="Скопировать ссылку"></a>',
+            '<a href="#" class="article-share-copy" title="Скопировать ссылку"><span class="fa fa-link"></span></a>',
           '</div>',
         '</div>'
       ].join('');
